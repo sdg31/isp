@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html, body {
+      background-color: #120d31;
+      background-image: url("skulls.png");
+      height: 90%;
+      width: 80%;
+      margin-left: 5.5%;
+      margin-top: 0.5%;
+      }
+
+      div.container {
+      width: 80%;
+      height: 95%;
+      color: f0d3f7;
+      position: absolute;
+      }
+
+      nav {
+      float: left;
+      width: 23%;
+      position: absolute;
+      height: 100%;
+      background-color: rgba( 165, 121, 130, 0.7 );
+      }
+
+      article {
+      float: left;
+      margin-left: 25%;
+      margin-right: 75%;
+      width:48%;
+      position: absolute;
+      height: 100%;
+      background-color: rgba( 165, 121, 130, 0.7 );
+      }
+
+      news {
+      float: left;
+      margin-left: 75%;
+      width: 23%;
+      position: absolute;
+      height: 100%;
+      background-color: rgba( 165, 121, 130, 0.7 );
+      }
+
+      header {
+      padding: 1em;
+      color: #f0d3f7;
+      border-bottom: 5px solid #b98ea7;
+      text-align: center;
+      background-color: rgba( 165, 121, 130, 0.6 );
+      }
+
+      a:link {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+	<header>yoyo</header>
+	<ul style="list-style-type:none; color:#f0d3f7">
+	  <li>
+	    <a href="wub.html">Page 1</a>
+	  </li>
+ 	  <li>
+	     <a href="wub.html">Page 2</a>
+	  </li>
+	  <li>
+	     <a href="wub.html">Page 3</a>
+	  </li>
+	</ul>
+	<br style="clear: left;">
+      </nav>
+      <article>
+	<header>dood</header>
+	<br style="clear: left;">
+      </article>
+      <news>
+	<header>rood</header>
+	<br style="clear: left;">
+      </news>
+    </div>
+  </body>
+</html>
